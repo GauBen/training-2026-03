@@ -1,0 +1,3 @@
+[training:helloWorld] > jnt:content, trainingmix:component orderable
+ - name (string) i18n mandatory
+ + * (training:helloCard)

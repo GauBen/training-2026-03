@@ -1,0 +1,3 @@
+[training:footer] > jnt:content
+ - notice (string) i18n
+ - links (weakreference) multiple < jnt:page

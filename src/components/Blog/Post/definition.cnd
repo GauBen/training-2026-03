@@ -1,0 +1,6 @@
+[training:blogPost] > jnt:content, mix:title, jmix:editorialContent, trainingmix:component, jmix:mainResource
+ - subtitle (string, textarea) i18n mandatory
+ - cover (weakreference) mandatory < jmix:image
+ - body (string, richtext) i18n mandatory
+ - authors (weakreference, choicelist[nodes='$currentSite/contents/blog/authors;training:teamMember']) multiple < training:teamMember
+ - blogDate (date)

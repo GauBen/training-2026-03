@@ -1,0 +1,2 @@
+[training:helloCard] > jnt:content, mix:title
+ - illustration (string, choicelist[resourceBundle]) mandatory < code, coffee, interface, read, write

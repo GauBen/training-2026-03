@@ -1,0 +1,12 @@
+.section {
+  max-width: 60rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: 2rem;
+  margin-block: 2rem;
+}

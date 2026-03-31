@@ -1,0 +1,3 @@
+[training:heroCallToAction] > jnt:content
+ - label (string) i18n mandatory
+ - type (string, choicelist[linkTypeInitializer]) mandatory

@@ -1,0 +1,4 @@
+[training:teamSection] > jnt:content, trainingmix:component
+ - title (string) i18n mandatory primary
+ - subtitle (string) i18n mandatory
+ + * (training:teamMember)

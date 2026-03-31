@@ -1,0 +1,20 @@
+.person {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin: 0;
+
+  img {
+    border-radius: 50%;
+  }
+
+  span {
+    display: flex;
+    flex-direction: column;
+    color: #666;
+  }
+
+  strong {
+    color: #000;
+  }
+}

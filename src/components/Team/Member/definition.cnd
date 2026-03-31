@@ -1,0 +1,4 @@
+[training:teamMember] > jnt:content, jmix:editorialContent, trainingmix:component
+ - name (string) mandatory primary
+ - title (string) i18n mandatory
+ - photo (weakreference) mandatory < jmix:image

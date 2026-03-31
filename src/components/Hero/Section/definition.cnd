@@ -1,0 +1,5 @@
+[training:heroSection] > jnt:content, trainingmix:component
+ - title (string) i18n mandatory primary
+ - subtitle (string, textarea) i18n mandatory
+ - background (weakreference) mandatory < jmix:image
+ + * (training:heroCallToAction)
