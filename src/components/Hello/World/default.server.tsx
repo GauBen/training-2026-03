@@ -1,15 +1,11 @@
-import {
-  Island,
-  RenderChildren,
-  buildModuleFileUrl,
-  jahiaComponent,
-} from "@jahia/javascript-modules-library";
+import { Island, buildModuleFileUrl, jahiaComponent } from "@jahia/javascript-modules-library";
 import { t } from "i18next";
 import { Trans } from "react-i18next";
 import down from "./arrows/down.svg";
 import left from "./arrows/left.svg";
 import Celebrate from "./Celebrate.client.jsx";
 import classes from "./styles.module.css";
+import LazyLoader from "./LazyLoader.client.jsx";
 
 interface Props {
   name: string;
@@ -39,7 +35,7 @@ jahiaComponent(
       </header>
       <p>{t("7l9zetMbU4cKpL4NxSOtL")}</p>
       <div className={classes.grid}>
-        <RenderChildren />
+        <Island component={LazyLoader} />
       </div>
 
       <p className={classes.attribution}>
