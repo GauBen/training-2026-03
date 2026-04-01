@@ -1,0 +1,2 @@
+[training:collapsibleCard] > jnt:content, trainingmix:component, mix:title
+ + * (jmix:droppableContent)
