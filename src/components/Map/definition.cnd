@@ -1,0 +1,3 @@
+[training:map] > jnt:content, trainingmix:component
+ - latitude (double) mandatory < "[-90,90]"
+ - longitude (double) mandatory < "[-180,180]"
